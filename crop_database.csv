@@ -1,0 +1,11 @@
+Crop,pH_Min,pH_Max,Temp_Min,Temp_Max,Rainfall_Min,Rainfall_Max
+Rice,5.5,7.0,20,35,200,400
+Wheat,6.0,7.5,18,28,50,100
+Maize,5.5,7.5,25,35,60,120
+Cotton,6.0,8.0,25,35,100,150
+Sugarcane,6.0,7.8,20,35,400,600
+Soybean,6.0,7.0,22,30,80,120
+Barley,6.0,7.5,15,25,40,90
+Millet,5.0,7.5,25,40,30,80
+Groundnut,6.0,7.0,22,30,60,120
+Mustard,6.0,7.5,15,25,30,70
