@@ -1,32 +1,22 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
-
 int main() {
-
     float ph, temperature, rainfall, humidity, moisture;
     string crop;
-
     cout << "==========================================" << endl;
     cout << "      Crop Recommendation System" << endl;
     cout << "==========================================" << endl;
-
     cout << "\nEnter Soil pH: ";
     cin >> ph;
-
-    cout << "Enter Temperature (°C): ";
+    cout << "Enter Temperature (C): ";
     cin >> temperature;
-
     cout << "Enter Rainfall (mm): ";
     cin >> rainfall;
-
     cout << "Enter Humidity (%): ";
     cin >> humidity;
-
     cout << "Enter Soil Moisture (%): ";
     cin >> moisture;
-
     if (ph >= 5.5 && ph <= 7.0 &&
         rainfall >= 200 &&
         humidity >= 70 &&
@@ -35,7 +25,6 @@ int main() {
     {
         crop = "Rice";
     }
-
     else if (ph >= 6.0 && ph <= 7.5 &&
              rainfall >= 50 &&
              rainfall <= 100 &&
@@ -44,7 +33,6 @@ int main() {
     {
         crop = "Wheat";
     }
-
     else if (ph >= 5.5 && ph <= 7.5 &&
              rainfall >= 60 &&
              rainfall <= 120 &&
@@ -52,14 +40,12 @@ int main() {
     {
         crop = "Maize";
     }
-
     else if (ph >= 6.0 &&
              rainfall >= 400 &&
              temperature >= 20)
     {
         crop = "Sugarcane";
     }
-
     else if (ph >= 6.0 &&
              rainfall >= 100 &&
              rainfall <= 150 &&
@@ -67,7 +53,6 @@ int main() {
     {
         crop = "Cotton";
     }
-
     else if (ph >= 6.0 &&
              rainfall >= 80 &&
              rainfall <= 120 &&
@@ -75,15 +60,12 @@ int main() {
     {
         crop = "Soybean";
     }
-
     else
     {
         crop = "No suitable crop found. Please modify input conditions.";
     }
-
     cout << "\n==========================================" << endl;
     cout << "Recommended Crop : " << crop << endl;
     cout << "==========================================" << endl;
-
     return 0;
 }
