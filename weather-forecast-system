@@ -1,0 +1,22 @@
+#include <iostream>
+#include "weather.h"
+
+using namespace std;
+
+int main() {
+    float temperature, humidity;
+    string condition;
+
+    cout << "Enter Temperature (°C): ";
+    cin >> temperature;
+
+    cout << "Enter Humidity (%): ";
+    cin >> humidity;
+
+    cout << "Enter Weather Condition (Sunny/Rainy/Cloudy): ";
+    cin >> condition;
+
+    displayForecast(temperature, humidity, condition);
+
+    return 0;
+}
